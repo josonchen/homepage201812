@@ -190,4 +190,11 @@ Further reading
 
     $ git status
 来看现在的状态，图1-7是添加之前的，图1-8是添加之后的情况
-----
+
+$ git commit -m "[GROWTH-001] Phodal: add first commit ＆ example"
+这里的GROWTH-001就相当于任务号，Phodal则对应于用户名，后面的提交信息也会写明这个任务的作用。
+
+由于有测试存在，在完成提交之后，就需要运行相应的测试来保证没有破坏原来的功能。因此，可以PUSH代码到服务器端：
+
+    $ git push
+-------
